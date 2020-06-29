@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.el-dialog{
+  width: 430px;
+  border-radius: 2px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+  margin: 200px auto;
+}
+
+.el-dialog>.dialog-header{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 20px 10px;
+}
+
+.el-dialog>span{
+  display: block;
+  text-align: center;
+}
+
+.el-dialog>.dialog-body{
+  padding: 30px 20px;
+}
+
+.el-dialog>.dialog-footer{
+  padding: 10px 20px 20px;
+}
+
+.el-button{
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #dcdfe6;
+  color: #606266;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  transition: .1s;
+  font-weight: 500;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.el-dialog>.dialog-footer>button:first-child {
+  margin-right: 10px;
+}
+
+.el-button-primary {
+  color: #fff;
+  background-color: #409eff;
+  border-color: #409eff;
+}
